@@ -1,0 +1,13 @@
+{
+  "name": "remote-dev-jobs-scraper",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Scrape remote dev/AI jobs from remoteok.com into a clean CSV (Playwright)",
+  "scripts": {
+    "scrape": "node scrape.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.49.0"
+  }
+}
