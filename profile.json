@@ -1,0 +1,19 @@
+{
+  "name": "Puriphat Srikamnoi",
+  "headline": "Full Stack + AI Automation Engineer — new grad / junior",
+  "skills": [
+    "typescript", "javascript", "react", "next.js", "node",
+    "python", "fastapi", "postgresql", "redis", "docker",
+    "ci/cd", "rag", "claude", "anthropic", "vector search", "tailwind"
+  ],
+  "interests": [
+    "ai", "rag", "automation", "full stack", "backend",
+    "developer tools", "saas", "agents", "mcp"
+  ],
+  "seniorityFit": ["intern", "junior", "entry", "graduate", "mid"],
+  "avoid": [
+    "senior", "staff", "principal", "lead", "vp", "director", "manager",
+    "blockchain", "solidity", "sales", "marketing", "salesforce", "hubspot"
+  ],
+  "locationPref": "Remote worldwide, APAC, or Thailand-friendly timezones"
+}

@@ -5,9 +5,13 @@
   "type": "module",
   "description": "Scrape remote dev/AI jobs from remoteok.com into a clean CSV (Playwright)",
   "scripts": {
-    "scrape": "node scrape.mjs"
+    "start": "node run.mjs",
+    "scrape": "node scrape.mjs",
+    "match": "node match.mjs",
+    "report": "node report.mjs"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.102.0",
     "playwright": "^1.49.0"
   }
 }
