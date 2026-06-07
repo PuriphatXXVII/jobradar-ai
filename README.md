@@ -23,7 +23,7 @@ Job hunting means scanning hundreds of postings, most of them irrelevant. JobRad
 | Agent | Role |
 |-------|------|
 | 🛰️ **Scout** (`scrape.mjs`) | Scrapes remote dev/AI jobs from [RemoteOK](https://remoteok.com) with Playwright, then cleans the messy real-world data (SEO-spam tags, duplicates, stale archive rows). |
-| 🤖 **Matcher** (`match.mjs`) | Sends the jobs + your `profile.json` to **Claude**, which scores each role **0–100** for fit and writes a one-line reason — returned as **structured JSON** so it's safe to sort. Falls back to keyword scoring when no API key is set. |
+| 🤖 **Matcher** (`match.mjs`) | A **panel of models** (Claude **Opus** + **Haiku**) each score every job **0–100** against your `profile.json` with a one-line reason — returned as **structured JSON**. Their **consensus** is the final score; where they disagree, the job is flagged. Falls back to keyword scoring when no API key is set. |
 | 📊 **Reporter** (`report.mjs`) | Ranks the results and builds a **daily digest** — Markdown (`digest.md`) plus an email-ready HTML version (`digest.html`) — with fit metrics. |
 | 🔗 **Orchestrator** (`run.mjs`) | Chains Scout → Matcher → Reporter into one command, times each stage, and is resilient (if scraping fails, it still ranks the existing data). |
 
@@ -48,6 +48,18 @@ The digest also reports the **average fit %** and how many roles clear the **"wo
 
 ---
 
+## 🤝 Multi-model consensus
+
+The Matcher runs a **panel of models** that score every job *independently*, then combines them:
+
+- **Claude Opus** (deep reasoning) **+ Claude Haiku** (fast) each rank the jobs 0–100
+- the final score is their **consensus**; jobs where they disagree by more than 15 points are flagged **⚖️** as "worth a second look"
+- the panel is **pluggable** — adding another model (e.g. a free Gemini tier) is a one-line change
+
+Why bother: a single model can be *confidently wrong*. Two independent judges turn one opinion into **agreement + an uncertainty flag**, so you know which matches to trust and which to double-check.
+
+---
+
 ## 🏗️ Architecture
 
 ```
@@ -56,7 +68,7 @@ The digest also reports the **average fit %** and how many roles clear the **"wo
               └──────┬───────┘
                      ▼
  profile.json ─────▶┌──────────────┐
-                    │ 🤖 Matcher   │  Claude: score 0–100 + reason (JSON)
+                    │ 🤖 Matcher   │  Opus + Haiku → consensus 0–100 (JSON)
                     └──────┬───────┘  →  ranked-jobs.csv
                            ▼
                     ┌──────────────┐
