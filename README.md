@@ -10,7 +10,7 @@ A **multi-agent pipeline**: a Scout **scrapes** job boards → an AI **Matcher**
 ![Playwright](https://img.shields.io/badge/Playwright-scraping-2EAD33?logo=playwright&logoColor=white)
 ![Claude](https://img.shields.io/badge/Claude-AI_ranking-D97757?logo=anthropic&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-daily_cron-2088FF?logo=github-actions&logoColor=white)
-[![Daily run](https://github.com/PuriphatXXVII/remote-dev-jobs-scraper/actions/workflows/jobradar.yml/badge.svg)](https://github.com/PuriphatXXVII/remote-dev-jobs-scraper/actions/workflows/jobradar.yml)
+[![Daily run](https://github.com/PuriphatXXVII/jobradar-ai/actions/workflows/jobradar.yml/badge.svg)](https://github.com/PuriphatXXVII/jobradar-ai/actions/workflows/jobradar.yml)
 
 </div>
 
