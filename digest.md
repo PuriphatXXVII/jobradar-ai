@@ -1,38 +1,38 @@
-# 🎯 JobRadar AI — Daily Digest · 2026-07-08
+# 🎯 JobRadar AI — Daily Digest · 2026-07-09
 
-> สแกน **56** งาน · fit เฉลี่ย **31%** · น่าสมัคร (≥70): **4** · 🤝 โมเดลตรงกัน **51** · ⚖️ เห็นต่าง **5**
+> สแกน **60** งาน · fit เฉลี่ย **33%** · น่าสมัคร (≥70): **3** · 🤝 โมเดลตรงกัน **40** · ⚖️ เห็นต่าง **20**
 
 ## 🏆 Top 10
 
-**1. [Junior Front End Developer](https://remoteok.com/remote-jobs/remote-junior-front-end-developer-work-force-nexus-1133435)** — `78/100` ✓ · Work Force Nexus  `[opus 75 / haiku 80]`
-   ↳ Junior front end worldwide ตรงระดับตรงสแตก
+**1. [Junior Front End Developer](https://remoteok.com/remote-jobs/remote-junior-front-end-developer-pulsemedia-apac-1132221)** — `77/100` ✓ · PULSEMEDIA (APAC)  `[opus 75 / haiku 78]`
+   ↳ junior frontend remote APAC ตรงระดับและไทม์โซน
 
-**2. [Junior Front End Developer](https://remoteok.com/remote-jobs/remote-junior-front-end-developer-pulsemedia-mena-1134518)** — `77/100` ✓ · PULSEMEDIA (MENA)  `[opus 72 / haiku 82]`
-   ↳ Junior front end remote ตรงระดับ แต่ MENA timezone
+**2. [Junior Front End Developer](https://remoteok.com/remote-jobs/remote-junior-front-end-developer-work-force-nexus-1133435)** — `75/100` ✓ · Work Force Nexus  `[opus 72 / haiku 78]`
+   ↳ junior frontend worldwide ตรงระดับและรีโมท
 
-**3. [Junior Software Developer](https://remoteok.com/remote-jobs/remote-junior-software-developer-99x-brazil-1134072)** — `75/100` ✓ · 99x Brazil  `[opus 74 / haiku 75]`
-   ↳ Junior software dev ตรงระดับ แต่บราซิล
+**3. [Junior Front End Developer](https://remoteok.com/remote-jobs/remote-junior-front-end-developer-pulsemedia-mena-1134518)** — `72/100` ✓ · PULSEMEDIA (MENA)  `[opus 68 / haiku 75]`
+   ↳ junior front end remote ตรงระดับ แต่ MENA timezone
 
-**4. [Full Stack Developer first UK](https://remoteok.com/remote-jobs/remote-full-stack-developer-first-uk-better-futures-multi-academy-trust-1134395)** — `70/100` ✓ · Better Futures Multi Academy Trust  `[opus 68 / haiku 72]`
-   ↳ Full stack worldwide ตรงสาย part-time ไม่ระบุ senior
+**4. [Junior Software Developer](https://remoteok.com/remote-jobs/remote-junior-software-developer-99x-brazil-1134072)** — `67/100` ⚖️ · 99x Brazil  `[opus 58 / haiku 76]`
+   ↳ junior developer แต่บราซิลไทม์โซนไม่ตรง
 
-**5. [Junior Software Engineer](https://remoteok.com/remote-jobs/remote-junior-software-engineer-statusneo-1133251)** — `68/100` ⚖️ · StatusNeo  `[opus 60 / haiku 76]`
-   ↳ Junior SW engineer ตรงระดับ แต่อินเดีย
+**5. [Back End Developer](https://remoteok.com/remote-jobs/remote-back-end-developer-wisk-ai-inventory-management-for-hotels-restaurants-amp-bars-1133587)** — `64/100` ⚖️ · WISK.ai - Inventory Management for Hotels, Restaurants & Bars  `[opus 55 / haiku 72]`
+   ↳ backend developer แต่แคนาดาไทม์โซนไม่ตรง
 
-**6. [Front End Developer Fresher](https://remoteok.com/remote-jobs/remote-front-end-developer-fresher-zyphra-tech-1133568)** — `67/100` ⚖️ · ZYPHRA TECH  `[opus 56 / haiku 78]`
-   ↳ Front end fresher ตรงระดับ แต่อินเดียออนไซต์
+**6. [Backend Developer](https://remoteok.com/remote-jobs/remote-backend-developer-360dialog-1133242)** — `64/100` ✓ · 360Dialog  `[opus 58 / haiku 70]`
+   ↳ backend developer ยุโรป ไม่ระบุระดับ
 
-**7. [Back End Developer](https://remoteok.com/remote-jobs/remote-back-end-developer-wisk-ai-inventory-management-for-hotels-restaurants-amp-bars-1133587)** — `66/100` ✓ · WISK.ai - Inventory Management for Hotels, Restaurants & Bars  `[opus 62 / haiku 70]`
-   ↳ Backend dev ตรงสาย แคนาดา timezone ยาก
+**7. [Applied AI Engineer](https://remoteok.com/remote-jobs/remote-applied-ai-engineer-bjak-1132964)** — `64/100` ✓ · Bjak  `[opus 60 / haiku 68]`
+   ↳ applied AI engineer ตรง AI แต่ยุโรป
 
-**8. [Junior UI Engineer](https://remoteok.com/remote-jobs/remote-junior-ui-engineer-arabian-private-holdings-1134413)** — `63/100` ✓ · Arabian Private Holdings  `[opus 58 / haiku 68]`
-   ↳ Junior UI ตรงระดับ แต่ UK only
+**8. [Front End Developer Fresher](https://remoteok.com/remote-jobs/remote-front-end-developer-fresher-zyphra-tech-1133568)** — `63/100` ⚖️ · ZYPHRA TECH  `[opus 52 / haiku 74]`
+   ↳ fresher frontend ตรงระดับ แต่อินเดียเท่านั้น
 
-**9. [Backend Developer](https://remoteok.com/remote-jobs/remote-backend-developer-360dialog-1133242)** — `63/100` ✓ · 360Dialog  `[opus 60 / haiku 65]`
-   ↳ Backend dev ตรงสาย แต่ยุโรป timezone
+**9. [Python Developer](https://remoteok.com/remote-jobs/remote-python-developer-kindgeek-1133592)** — `62/100` ✓ · Kindgeek  `[opus 58 / haiku 65]`
+   ↳ Python developer ยุโรป ตรงภาษา ไม่ระบุระดับ
 
-**10. [Python Developer](https://remoteok.com/remote-jobs/remote-python-developer-kindgeek-1133592)** — `60/100` ✓ · Kindgeek  `[opus 58 / haiku 62]`
-   ↳ Python developer ตรงสาย แต่ยุโรป timezone
+**10. [Junior Software Engineer](https://remoteok.com/remote-jobs/remote-junior-software-engineer-statusneo-1133251)** — `62/100` ✓ · StatusNeo  `[opus 55 / haiku 68]`
+   ↳ junior software engineer ตรงระดับ แต่อินเดีย
 
 ---
-*Generated by JobRadar AI — multi-model consensus, ranked 56 jobs, top 10 shown.*
+*Generated by JobRadar AI — multi-model consensus, ranked 60 jobs, top 10 shown.*
