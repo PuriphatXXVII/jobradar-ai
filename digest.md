@@ -1,38 +1,38 @@
-# 🎯 JobRadar AI — Daily Digest · 2026-07-10
+# 🎯 JobRadar AI — Daily Digest · 2026-07-11
 
-> สแกน **50** งาน · fit เฉลี่ย **33%** · น่าสมัคร (≥70): **2** · 🤝 โมเดลตรงกัน **34** · ⚖️ เห็นต่าง **16**
+> สแกน **55** งาน · fit เฉลี่ย **32%** · น่าสมัคร (≥70): **2** · 🤝 โมเดลตรงกัน **39** · ⚖️ เห็นต่าง **16**
 
 ## 🏆 Top 10
 
-**1. [Junior Front End Developer](https://remoteok.com/remote-jobs/remote-junior-front-end-developer-work-force-nexus-1133435)** — `75/100` ✓ · Work Force Nexus  `[opus 70 / haiku 79]`
-   ↳ junior frontend worldwide ตรง seniority ดี
+**1. [Junior Front End Developer](https://remoteok.com/remote-jobs/remote-junior-front-end-developer-pulsemedia-mena-1134518)** — `74/100` ✓ · PULSEMEDIA (MENA)  `[opus 72 / haiku 75]`
+   ↳ Junior frontend react เหมาะ แต่ MENA timezone
 
-**2. [Junior Front End Developer](https://remoteok.com/remote-jobs/remote-junior-front-end-developer-pulsemedia-mena-1134518)** — `74/100` ✓ · PULSEMEDIA (MENA)  `[opus 72 / haiku 75]`
-   ↳ junior frontend, React ตรง แต่ MENA timezone
+**2. [Junior Front End Developer](https://remoteok.com/remote-jobs/remote-junior-front-end-developer-work-force-nexus-1133435)** — `73/100` ✓ · Work Force Nexus  `[opus 68 / haiku 78]`
+   ↳ Junior frontend worldwide เหมาะดี
 
-**3. [Full Stack Developer first UK](https://remoteok.com/remote-jobs/remote-full-stack-developer-first-uk-better-futures-multi-academy-trust-1134395)** — `68/100` ✓ · Better Futures Multi Academy Trust  `[opus 68 / haiku 68]`
-   ↳ full stack worldwide แต่ part-time UK
+**3. [Junior Software Developer](https://remoteok.com/remote-jobs/remote-junior-software-developer-99x-brazil-1134072)** — `68/100` ⚖️ · 99x Brazil  `[opus 55 / haiku 80]`
+   ↳ Junior dev แต่บราซิล timezone ไกล
 
-**4. [Junior Software Developer](https://remoteok.com/remote-jobs/remote-junior-software-developer-99x-brazil-1134072)** — `68/100` ⚖️ · 99x Brazil  `[opus 60 / haiku 76]`
-   ↳ junior developer แต่อยู่ Brazil timezone
+**4. [Applied AI Engineer](https://remoteok.com/remote-jobs/remote-applied-ai-engineer-bjak-1132964)** — `67/100` ✓ · Bjak  `[opus 62 / haiku 72]`
+   ↳ Applied AI engineer ตรงโดเมน แต่ยุโรป
 
-**5. [Junior Software Engineer](https://remoteok.com/remote-jobs/remote-junior-software-engineer-statusneo-1133251)** — `65/100` ✓ · StatusNeo  `[opus 58 / haiku 72]`
-   ↳ junior SWE ตรง แต่ India onsite
+**5. [Junior Software Engineer](https://remoteok.com/remote-jobs/remote-junior-software-engineer-statusneo-1133251)** — `64/100` ⚖️ · StatusNeo  `[opus 52 / haiku 76]`
+   ↳ Junior SE เหมาะ แต่อินเดีย onsite
 
-**6. [Applied AI Engineer](https://remoteok.com/remote-jobs/remote-applied-ai-engineer-bjak-1132964)** — `64/100` ✓ · Bjak  `[opus 65 / haiku 62]`
-   ↳ applied AI ตรง domain แต่ Europe timezone
+**6. [Full Stack Developer first UK](https://remoteok.com/remote-jobs/remote-full-stack-developer-first-uk-better-futures-multi-academy-trust-1134395)** — `62/100` ✓ · Better Futures Multi Academy Trust  `[opus 55 / haiku 68]`
+   ↳ Full stack worldwide แต่โดเมนการศึกษา part-time
 
-**7. [Frontend Developer Junior](https://remoteok.com/remote-jobs/remote-frontend-developer-junior-universia-peru-1134158)** — `63/100` ✓ · Universia Perú  `[opus 55 / haiku 70]`
-   ↳ junior frontend React แต่อยู่ Peru
+**7. [Back End Developer](https://remoteok.com/remote-jobs/remote-back-end-developer-wisk-ai-inventory-management-for-hotels-restaurants-amp-bars-1133587)** — `62/100` ✓ · WISK.ai - Inventory Management for Hotels, Restaurants & Bars  `[opus 58 / haiku 65]`
+   ↳ Backend dev node เหมาะ แต่แคนาดา
 
-**8. [Front End Developer Fresher](https://remoteok.com/remote-jobs/remote-front-end-developer-fresher-zyphra-tech-1133568)** — `63/100` ⚖️ · ZYPHRA TECH  `[opus 52 / haiku 74]`
-   ↳ fresher frontend ตรง แต่ India onsite
+**8. [Backend Developer](https://remoteok.com/remote-jobs/remote-backend-developer-360dialog-1133242)** — `62/100` ✓ · 360Dialog  `[opus 60 / haiku 64]`
+   ↳ Backend dev ยุโรป timezone ไม่ค่อยดี
 
-**9. [Back End Developer](https://remoteok.com/remote-jobs/remote-back-end-developer-wisk-ai-inventory-management-for-hotels-restaurants-amp-bars-1133587)** — `62/100` ✓ · WISK.ai - Inventory Management for Hotels, Restaurants & Bars  `[opus 55 / haiku 68]`
-   ↳ backend dev ตรง แต่ Canada timezone
+**9. [Junior UI Engineer](https://remoteok.com/remote-jobs/remote-junior-ui-engineer-arabian-private-holdings-1134413)** — `60/100` ✓ · Arabian Private Holdings  `[opus 58 / haiku 62]`
+   ↳ Junior UI เหมาะ แต่ UK timezone
 
-**10. [Junior UI Engineer](https://remoteok.com/remote-jobs/remote-junior-ui-engineer-arabian-private-holdings-1134413)** — `60/100` ✓ · Arabian Private Holdings  `[opus 58 / haiku 62]`
-   ↳ junior UI ตรง seniority แต่ UK เท่านั้น
+**10. [Frontend Developer Junior](https://remoteok.com/remote-jobs/remote-frontend-developer-junior-universia-peru-1134158)** — `60/100` ⚖️ · Universia Perú  `[opus 50 / haiku 70]`
+   ↳ Junior frontend เหมาะ แต่เปรูไกล timezone
 
 ---
-*Generated by JobRadar AI — multi-model consensus, ranked 50 jobs, top 10 shown.*
+*Generated by JobRadar AI — multi-model consensus, ranked 55 jobs, top 10 shown.*
