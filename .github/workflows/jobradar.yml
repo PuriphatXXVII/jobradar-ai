@@ -1,8 +1,10 @@
-name: JobRadar AI — daily run
+name: JobRadar AI — pipeline run
 
 on:
-  schedule:
-    - cron: "0 1 * * *"      # 01:00 UTC = 08:00 เวลาไทย ทุกวัน
+  # cron ถูกปิดไว้ (2026-07-26) — เครดิต Anthropic หมด, ไม่เติมต่อ
+  # ถ้าจะให้กลับมารันเองทุกเช้า: เอา 2 บรรทัดล่างออกจาก comment
+  # schedule:
+  #   - cron: "0 1 * * *"      # 01:00 UTC = 08:00 เวลาไทย ทุกวัน
   workflow_dispatch: {}        # กดรันเองได้จากแท็บ Actions
 
 permissions:
