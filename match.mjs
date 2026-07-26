@@ -123,16 +123,37 @@ const JUDGES = hasKey
 console.log(`โหลด ${jobs.length} งาน · ผู้ตัดสิน: ${JUDGES.map((j) => j.name).join(" + ")}`);
 
 // ---- 3) ให้แต่ละ judge ลงคะแนนพร้อมกัน แล้วรวมเป็น consensus ----
-const maps = await Promise.all(JUDGES.map((j) => j.run(profile, jobs)));
+// judge ตัวไหนล้ม (เครดิตหมด / rate limit / API ล่ม) ไม่ควรลาก pipeline ตายไปด้วย
+const results = await Promise.all(
+  JUDGES.map(async (jd) => {
+    try {
+      return { judge: jd, map: await jd.run(profile, jobs) };
+    } catch (e) {
+      const msg = String(e?.error?.error?.message || e?.message || e).split("\n")[0].slice(0, 140);
+      console.warn(`   ⚠  ผู้ตัดสิน "${jd.name}" ล้มเหลว → ข้าม (${msg})`);
+      return null;
+    }
+  })
+);
+
+let active = results.filter(Boolean);
+
+// ล้มหมดทุกคน → ถอยไปใช้ keyword เพื่อให้ยังได้ผลลัพธ์ (ดีกว่าไม่ได้ digest เลย)
+if (active.length === 0) {
+  console.warn("   ↩  ผู้ตัดสิน AI ล้มทั้งหมด → ใช้ fallback keyword แทน");
+  const kw = keywordJudge();
+  active = [{ judge: kw, map: await kw.run(profile, jobs) }];
+}
 
 const ranked = jobs.map((j, i) => {
-  const picks = maps.map((m) => m.get(i)).filter(Boolean);
-  const scores = picks.map((p) => p.score);
+  const picks = active.map((a) => a.map.get(i));
+  const scored = picks.filter(Boolean);
+  const scores = scored.map((p) => p.score);
   const consensus = Math.round(scores.reduce((a, b) => a + b, 0) / (scores.length || 1));
   const spread = scores.length > 1 ? Math.max(...scores) - Math.min(...scores) : 0;
   const agreement = scores.length < 2 ? "—" : spread <= AGREE_WITHIN ? "agree" : "split";
-  const models = JUDGES.map((jd, k) => `${jd.name} ${picks[k]?.score ?? "?"}`).join(" / ");
-  return { ...j, score: consensus, agreement, models, reason: picks[0]?.reason || "—" };
+  const models = active.map((a, k) => `${a.judge.name} ${picks[k]?.score ?? "?"}`).join(" / ");
+  return { ...j, score: consensus, agreement, models, reason: scored[0]?.reason || "—" };
 }).sort((a, b) => b.score - a.score);
 
 // ---- 4) เซฟ + แสดงผล ----
@@ -148,4 +169,4 @@ for (const j of ranked.slice(0, TOP_N)) {
   console.log(`     [${j.models}] ${flag}  ↳ ${j.reason}`);
 }
 console.log(`\n✅ เซฟ ${ranked.length} งาน → ${OUT}`);
-if (JUDGES.length > 1) console.log(`   ⚖️ โมเดลเห็นต่างกัน ${splits} งาน (ควรดูซ้ำ)`);
+if (active.length > 1) console.log(`   ⚖️ โมเดลเห็นต่างกัน ${splits} งาน (ควรดูซ้ำ)`);
